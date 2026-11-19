@@ -14,8 +14,16 @@ def to_grade(score):
 def is_pass(score):
     return score >= 50
 
+def is_pass(score):
+    return score >= 50
+
+
 def average(scores):
+<<<<<<< HEAD
     return round(sum(scores) / len(scores), 2)
+=======
+    return sum(scores) / len(scores) if scores else 0
+>>>>>>> origin/feature-69114540334
 
 
 if __name__ == "__main__":
