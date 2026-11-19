@@ -11,6 +11,10 @@ def to_grade(score):
         return "F"
 
 
+def is_pass(score):
+    return score >= 50
+
+
 def average(scores):
     return sum(scores) / len(scores)
 
