@@ -1,1 +1,1 @@
-print(" Hello FYP from69114540042")
+print("Hello FYP from 69114540042")

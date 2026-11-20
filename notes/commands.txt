@@ -1,0 +1,1 @@
+git initecho git statusecho git add .echo git commit -m "init lab01"echo git push origin main
